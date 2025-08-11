@@ -25,7 +25,12 @@ def test_transform():
     else:
         logging.error("Test Failed")
 
+def test():
+    print("test")
+
 if __name__ == "__main__":
     test_transform() 
     
     #logging.INFO(assert transform([1, 2]) == [2, 4])
+
+
